@@ -1,135 +1,214 @@
 <p align="center">
-  <a href="https://kinsu.onrender.com">
-    <img src="https://envs.sh/i57.jpg" alt="My Portfolio Logo" style="width:100%; max-width:100%;" />
+  <a href="#">
+    <img src="Favicon/myavatar.jpeg" alt="Pujitha Nali Portfolio" width="180" />
   </a>
 </p>
 
-<a id="readme-top"></a>
+<h1 align="center"><b>Pujitha Nali | Portfolio</b></h1>
 
-<h1 align="center"><b>Mʏ Pᴏʀᴛғᴏʟɪᴏ</b></h1>
 <p align="center">
-    A portfolio website template for students and developers 😌
+  A personal portfolio showcasing my skills, projects, learning journey, and interests in technology, AI, and DevOps.
 </p>
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stars][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
-<br/>
 
 ---
 
 ## 📚 Table of Contents
 
-- [🌐 Live Portfolio](#-live-portfolio)
-- [🧰 Tech Stack](#-tech-stack)
-- [✨ Key Features](#-key-features)
-- [🚀 Getting Started](#-getting-started)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [👨‍💻 Maintained By](#-maintained-by)
+* [🌐 Portfolio](#-portfolio)
+* [👩‍💻 About Me](#-about-me)
+* [🧰 Tech Stack](#-tech-stack)
+* [✨ Projects](#-projects)
+* [🚀 Key Features](#-key-features)
+* [📁 Project Structure](#-project-structure)
+* [💻 Getting Started](#-getting-started)
+* [📄 License](#-license)
+* [👩‍💻 Maintained By](#-maintained-by)
 
 ---
 
-## 🔗 Live Portfolio
+## 🌐 Portfolio
 
-<p align="center">
-  <a href="https://kinsu.onrender.com">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://envs.sh/iZP.jpg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://envs.sh/iZP.jpg" />
-      <img src="https://envs.sh/iZP.jpg" alt="Live Preview" width="250" />
-    </picture>
-  </a>
-</p>
+This portfolio website presents my profile, skills, projects, hobbies, and contact information in a responsive and modern interface.
+
+---
+
+## 👩‍💻 About Me
+
+I’m a B-Tech student interested in technology and AI.
+
+I am currently learning **Python, C, HTML, CSS, and DevOps** and improving my skills through hands-on projects and practical learning.
+
+I enjoy exploring new technologies and building projects that help me understand real-world applications.
 
 ---
 
 ## 🧰 Tech Stack
 
-- **⚙️ Core:** HTML5, CSS3, Vanilla JavaScript  
-- **✨ UI/UX:** Glassmorphism UI, Flexbox  
-- **🎬 Animations:** AOS (Animate On Scroll)  
-- **🖋️ Icons & Fonts:** Font Awesome, Google Fonts (Orbitron & Pacifico)
+### 💻 Programming & Web
+
+* Python
+* C
+* HTML5
+* CSS3
+* JavaScript
+
+### 🤖 AI & APIs
+
+* Google Gemini API
+* AI-powered applications
+* AI Search
+
+### ⚙️ Development & Tools
+
+* Flask
+* Git
+* GitHub
+* DevOps
+* VS Code
+
+### 🎨 UI/UX
+
+* Responsive Design
+* Glassmorphism UI
+* Flexbox
+* AOS Animations
 
 ---
 
-## ✨ Key Features
+## ✨ Projects
 
-- **⚡ Performance:** Fully responsive & fast-loading  
-- **🎨 Design:** Clean, animated glass-style UI  
-- **🧠 Interactivity:** Scroll-triggered animations  
-- **🧩 Structure:** Modular code & components  
-- **📝 Scalability:** Blog-ready layout (coming soon)  
-- **🔧 Usability:** Easy to customize and deploy
+### 🔎 AI Search Engine
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+An AI-powered search application developed during my internship.
 
----
+**Technologies:**
+Python, Flask, HTML, CSS, JavaScript, Google Gemini API
 
-## 🚀 Getting Started
+**Key Features:**
 
-1. **Star ⭐** this repo  
-2. **Fork 🍴** it  
-3. Customize content (`index.html`, `/pages/`)  
-4. Deploy to [Render](https://render.com) or GitHub Pages  
-5. 🎉 Share your portfolio!
+* AI-powered query processing
+* AI-generated responses
+* Flask frontend-backend integration
+* Responsive and user-friendly interface
+* Input validation for better search experience
 
 ---
 
-## 🤝 Contributing
+### 🌾 FutureCrop – AI Price Prediction
 
-Feedback and suggestions are always welcome!  
-Feel free to fork this repo, submit issues, or open a pull request to improve it.
+An AI-based web application designed to provide crop price predictions.
+
+**Technologies:**
+Python, FastAPI, HTML, CSS, JavaScript
+
+**Key Features:**
+
+* State and district selection
+* Crop and market-based prediction
+* Price prediction interface
+* Interactive data visualization
 
 ---
 
-## 🌟 Support and Community
+### ✈️ SmartTrip
 
-If you found this project helpful, **don’t forget to give it a ⭐ on GitHub.**  
-Your support inspires more open-source contributions! 🫶
+A travel planning web application built using Flask and SQLite.
+
+**Technologies:**
+Python, Flask, SQLite, HTML, CSS, JavaScript
+
+**Key Features:**
+
+* User registration and login
+* Trip planning
+* Travel budget management
+* Food, stay, activity and travel cost tracking
+* Dashboard for managing trips
+
+---
+
+## 🚀 Key Features
+
+* 📱 Fully responsive design
+* 🎨 Modern glass-style UI
+* ✨ Smooth animations
+* 🧭 Easy navigation
+* 📂 Separate pages for projects, skills, hobbies and contact
+* 🌙 Clean and interactive interface
+* ⚡ Lightweight frontend
+* 🛠️ Easy to customize
+
+---
+
+## 📁 Project Structure
+
+```text
+My-Portfolio-main/
+│
+├── Favicon/
+│   ├── favicon.svg
+│   ├── myavatar.jpeg
+│   └── other favicon files
+│
+├── css/
+│   └── stylus.css
+│
+├── pages/
+│   ├── Contact/
+│   ├── Hobbies/
+│   ├── Projects/
+│   ├── Skills/
+│   └── index.html
+│
+├── index.html
+├── README.md
+└── LICENCE
+```
+
+---
+
+## 💻 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone <your-github-repository-url>
+```
+
+### 2. Open the project
+
+```bash
+cd My-Portfolio-main
+```
+
+### 3. Open the website
+
+Open `index.html` in your browser.
+
+You can also use **VS Code Live Server** to run the portfolio locally.
 
 ---
 
 ## 📄 License
 
-Distributed under the **MIT License**.  
-Feel free to use, modify, and distribute with attribution.  
-📜 [View LICENSE](LICENSE)
+This project is distributed under the **MIT License**.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+You can view the license in the `LICENCE` file included in this repository.
 
 ---
 
-## 👨‍💻 Maintained By
+## 👩‍💻 Maintained By
 
-**Kinsu Rajput**  
-_BCA Student • Python Developer • Telegram Bot Maker_
+**Pujitha Nali**
 
-<p align="left">
-  <a href="https://github.com/pykinsu"><img src="https://img.shields.io/badge/GitHub-%23000000.svg?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://t.me/pykinsu"><img src="https://img.shields.io/badge/Telegram-%2326A5E4.svg?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+B-Tech Student • AI & Technology Enthusiast • DevOps Learner
+
+---
+
+<p align="center">
+  Thanks for visiting my portfolio! 🚀
 </p>
 
----
-
-<h3 align="center">
-  <img src="https://img.icons8.com/?size=100&id=iuKZf4Vga0gs&format=png&color=000000" width="24" alt="Thanks Icon" />
-  <br/>
-  Thanks for visiting — now go build something awesome!
-</h3>
-
----
-
-[contributors-shield]: https://img.shields.io/github/contributors/pyKinsu/my-portfolio.svg?style=for-the-badge  
-[contributors-url]: https://github.com/pyKinsu/my-portfolio/graphs/contributors  
-[forks-shield]: https://img.shields.io/github/forks/pyKinsu/my-portfolio.svg?style=for-the-badge  
-[forks-url]: https://github.com/pyKinsu/my-portfolio/network/members  
-[stars-shield]: https://img.shields.io/github/stars/pyKinsu/my-portfolio.svg?style=for-the-badge  
-[stars-url]: https://github.com/pyKinsu/my-portfolio/stargazers  
-[issues-shield]: https://img.shields.io/github/issues/pyKinsu/my-portfolio.svg?style=for-the-badge  
-[issues-url]: https://github.com/pyKinsu/my-portfolio/issues  
-[license-shield]: https://img.shields.io/github/license/pyKinsu/my-portfolio.svg?style=for-the-badge  
-[license-url]: https://github.com/pyKinsu/my-portfolio/blob/main/LICENSE
+<p align="center">
+  <b>Keep Learning • Keep Building • Keep Growing</b>
+</p>
